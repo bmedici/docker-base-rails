@@ -123,7 +123,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler
+  bundler (~> 2)
   execjs
   jquery-rails
   jquery-ui-rails (~> 5.0.5)

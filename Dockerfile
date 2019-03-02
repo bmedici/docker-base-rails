@@ -1,5 +1,5 @@
 # Docker headers
-FROM ruby:2.5.0-alpine3.7
+FROM ruby:2.5.3-alpine3.9
 MAINTAINER Bruno MEDICI <opensource@bmconseil.com>
 
 # Environment
@@ -42,5 +42,4 @@ RUN yarn add --dev webpack webpack-dev-server
 # Bundler and basic gems
 ADD Gemfile Gemfile.lock  $INSTALL_PATH
 RUN gem install bundler && bundle config git.allow_insecure true && bundle install --system --without="development test" -j4
-
 

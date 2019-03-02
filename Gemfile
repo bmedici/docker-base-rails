@@ -2,7 +2,7 @@
 source 'http://rubygems.org'
 ruby '2.5.0'
 
-gem 'bundler'
+gem 'bundler',  '~> 2'
 gem 'puma'
 gem 'mysql2' #,  '~> 0.4.10'
 gem 'rails-i18n'
