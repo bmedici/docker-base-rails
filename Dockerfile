@@ -11,6 +11,12 @@ ENV RAILS_SERVE_STATIC_FILES true
 ENV RAILS_LOG_TO_STDOUT true
 
 
+# Work dir
+ENV INSTALL_PATH /app/
+RUN mkdir -p              $INSTALL_PATH
+WORKDIR                   $INSTALL_PATH
+
+
 # Dependencies
 RUN \
   # update packages
