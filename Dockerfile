@@ -30,10 +30,10 @@ RUN \
   apk --no-cache add ca-certificates git && \
   apk --no-cache add bzip2-dev && \
   apk --no-cache add yarn && \
+  apk --no-cache add libressl-dev && \
 
   # clear after installation
   rm -rf /var/cache/apk/*
-
 
 # Yarn
 RUN yarn add --dev webpack webpack-dev-server
