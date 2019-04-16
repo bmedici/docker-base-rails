@@ -30,6 +30,7 @@ RUN \
   apk --no-cache add ca-certificates git && \
   apk --no-cache add bzip2-dev && \
   apk --no-cache add yarn && \
+  apk --no-cache add tzdata && \
   apk --no-cache add libressl-dev && \
 
   # clear after installation
