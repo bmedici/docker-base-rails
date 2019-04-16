@@ -43,4 +43,3 @@ RUN yarn add --dev webpack webpack-dev-server
 # Bundler and basic gems
 ADD Gemfile Gemfile.lock  $INSTALL_PATH
 RUN gem install bundler && bundle config git.allow_insecure true && bundle install --system --without="development test" -j4
-
