@@ -15,6 +15,8 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails', '~> 5.0.5'
 gem 'execjs'
 gem 'rollbar'
-gem 'newrelic_rpm', :group => [:beta, :production]
+gem 'newrelic_rpm'
 gem 'rbnacl-libsodium'
+gem 'simple_form'
+gem 'mongoid'
 
