@@ -18,5 +18,12 @@ gem 'rollbar'
 gem 'newrelic_rpm'
 gem 'rbnacl-libsodium'
 gem 'simple_form'
-gem 'mongoid'
+gem 'sass'
+gem 'bcrypt'
+gem 'bson'
+gem 'nokogiri'
+gem 'mongoid', '~> 7.0'
+gem 'devise-i18n'
+
+
 
