@@ -20,11 +20,13 @@ WORKDIR                   $INSTALL_PATH
 # Dependencies
 RUN \
   # update packages
-  apk update && apk upgrade && \
-  apk --no-cache add ruby ruby-dev ruby-bundler ruby-json ruby-irb ruby-rake ruby-bigdecimal && \
+  apk update && \
+  apk upgrade && \
 
   bundle config --global build.nokogiri --use-system-libraries && \
-  apk --no-cache add make libxml2-dev libxslt-dev g++ && \
+  apk --no-cache add make g++ && \
+  apk --no-cache add ruby ruby-dev ruby-bundler ruby-json ruby-irb ruby-rake ruby-bigdecimal && \
+  apk --no-cache add libxml2-dev libxslt-dev && \
   apk --no-cache add mysql-dev && \
   apk --no-cache add nodejs && \
   apk --no-cache add ca-certificates git && \

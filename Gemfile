@@ -19,11 +19,14 @@ gem 'newrelic_rpm'
 gem 'rbnacl-libsodium'
 gem 'simple_form'
 gem 'sass'
+gem 'sassc-rails'
 gem 'bcrypt'
 gem 'bson'
 gem 'nokogiri'
 gem 'mongoid', '~> 7.0'
 gem 'devise-i18n'
-
+gem 'bootstrap', '~> 4.3.1'
+gem 'jquery-rails'
+gem 'rails', '~> 5.2.2'
 
 
