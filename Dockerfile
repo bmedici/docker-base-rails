@@ -34,6 +34,7 @@ RUN \
   apk --no-cache add yarn && \
   apk --no-cache add tzdata && \
   apk --no-cache add libressl-dev && \
+  apk --no-cache add libc6-compat && \
 
   # clear after installation
   rm -rf /var/cache/apk/*
