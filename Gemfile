@@ -1,6 +1,6 @@
 # Sources
 source 'http://rubygems.org'
-ruby '2.6.2'
+ruby '2.6.3'
 
 gem 'bundler',  '~> 2'
 gem 'puma'
