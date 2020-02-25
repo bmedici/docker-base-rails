@@ -107,7 +107,7 @@ GEM
     mysql2 (0.5.2)
     newrelic_rpm (6.5.0.357)
     nio4r (2.4.0)
-    nokogiri (1.10.4)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     okcomputer (1.17.4)
     orm_adapter (0.5.0)
@@ -215,7 +215,7 @@ DEPENDENCIES
   mongoid (~> 7.0)
   mysql2
   newrelic_rpm
-  nokogiri (~> 1.10.4)
+  nokogiri (~> 1.10.8)
   okcomputer
   prawn
   prawn-table
